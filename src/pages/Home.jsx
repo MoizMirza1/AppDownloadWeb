@@ -6,6 +6,7 @@ import Installation from '../components/Installation'
 import Reviews from '../components/Reviews'
 import Footer from '../components/Footer'
 import About from '../components/About'
+import Impact from '../components/Impact'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
             <Featured />
             <About/>
             <Installation/>
+            <Impact />
             <Reviews/>
             <Footer/>
             </div>
