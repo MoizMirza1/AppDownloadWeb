@@ -17,12 +17,19 @@ const About = () => {
         {/* Right Column - Content */}
        <div className="w-full h-full bg-gray-50 p-12">
   {/* Heading and Paragraph */}
-<h2 className="text-5xl font-bold text-gray-900 mb-20 ">
-  <div className="space-y-2">
-    <div>Where Every Click</div>
-    <div>Sparks a Connection!</div>
-  </div>
-</h2>
+<div className="mb-20 ">
+  <h2 className="text-5xl font-demi text-gray-900">
+    <div className="space-y-2">
+      <div>Where Every Click</div>
+      <div>Sparks a Connection!</div>
+    </div>
+  </h2>
+
+  <p className="mt-6 text-lg text-gray-600 max-w-xl text-left">
+    A small act of kindness today can create a lifetime of impact for someone in need. 
+    Give from the heart and change a life!
+  </p>
+</div>
 
 
 

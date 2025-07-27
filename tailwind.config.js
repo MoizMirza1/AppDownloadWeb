@@ -4,8 +4,23 @@ export default {
   theme: {
     extend: {
       colors: {
-        brand: '#FF5349', 
+        brand: '#FF5349',
         background: '#F2F2F2'
+      },
+      fontFamily: {
+        sans: [
+          '"ITC Avant Garde Gothic Std"', 
+          'system-ui', 
+          '-apple-system', 
+          'sans-serif'
+        ],
+      },
+      fontWeight: {
+        extralight: '200',
+        book: '400',
+        medium: '500',
+        demi: '600',
+        bold: '700',
       },
     },
   },

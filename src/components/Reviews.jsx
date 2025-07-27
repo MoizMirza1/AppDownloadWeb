@@ -55,7 +55,7 @@ const Reviews = () => {
 
   return (
     <section className="w-full max-w-6xl mx-auto px-5 py-12">
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-gray-800">
+      <h2 className="text-3xl md:text-5xl font-demi text-center mb-10 text-gray-800">
         What Our Users Say
       </h2>
       

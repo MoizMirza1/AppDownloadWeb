@@ -6,13 +6,13 @@ const Banner = () => {
       {/* Left Side (60%) - Now centered */}
       <div className="text-white flex flex-col justify-center items-start space-y-4 md:space-y-6">
         <div className="space-y-2">
-          <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+          <h1 className="text-4xl md:text-6xl  leading-tight font-demi">
             Stay Connected
           </h1>
-          <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+          <h1 className="text-4xl md:text-6xl leading-tight font-demi">
             Stay Social
           </h1>
-          <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+          <h1 className="text-4xl md:text-6xl  leading-tight font-demi">
             Stay You!
           </h1>
         </div>
