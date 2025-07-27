@@ -9,16 +9,16 @@ const Installation = () => {
 
   const features = [
     {
-      title: "Easy Setup",
-      description: "Get started in minutes with our intuitive installation process",
+      title: "Download",
+      description: "Open Play Store or App Store",
     },
     {
-      title: "Reliable Performance",
-      description: "Experience smooth operation with our optimized system",
+      title: "Install App",
+      description: "The app will install automatically.",
     },
     {
-      title: "24/7 Support",
-      description: "Our team is always ready to help you with any issues",
+      title: "Ready to Use",
+      description: "Sign up or log in to start exploring!",
     }
   ];
 
