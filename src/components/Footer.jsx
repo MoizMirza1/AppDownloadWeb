@@ -16,7 +16,7 @@ const Footer = () => {
               Download MyBindle Now and Be a Part<br /> of a Community That's Always Evolving!
             </p>
             <div className="flex flex-wrap gap-4">
-              <button className="bg-white text-black rounded-full px-6 py-1 flex items-center gap-2">
+              <button className="bg-white text-black rounded-full px-6 py-1 flex items-center gap-2 hover:shadow-lg transition-shadow">
                 <img 
                   src="https://images.squarespace-cdn.com/content/v1/55af15f6e4b040ddf4a701c3/1568734560913-98XU9QT6GGLHZX9N9LE7/apple.png" 
                   alt="Apple Logo" 
@@ -28,7 +28,7 @@ const Footer = () => {
                 </div>
               </button>
               
-              <button className="bg-white text-black rounded-full px-6 py-3 flex items-center gap-2">
+              <button className="bg-white text-black rounded-full px-6 py-3 flex items-center gap-2 hover:shadow-lg transition-shadow">
                 <img 
                   src="https://pluspng.com/img-png/play-store-logo-png-google-play-store-logo-png-transparent-amp-svg-vector-pluspng-2400x2746.png" 
                   alt="Play Store Logo" 

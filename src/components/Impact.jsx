@@ -6,14 +6,14 @@ const Impact = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row">
         {/* Text Content - Responsive adjustments */}
         <div className="md:w-1/2 pr-0 md:pr-8 mb-8 md:mb-0 flex flex-col justify-start z-10">
-          <h1 className="whitespace-normal md:whitespace-nowrap overflow-visible text-4xl sm:text-5xl lg:text-7xl font-bold mb-6 md:mb-12 leading-tight text-white">
-            Be the Reason<br className="hidden md:block" />Someone Smiles Today!
+          <h1 className="whitespace-normal md:whitespace-nowrap overflow-visible text-4xl sm:text-5xl lg:text-7xl font-demi mb-6 md:mb-12 leading-tight text-white">
+            Be the Reason<br className="hidden md:block" /> Someone Smiles Today!
           </h1>
-          <p className="text-base md:text-lg lg:text-xl text-gray-200 mb-6 max-w-lg whitespace-normal">
-            Your generosity can change lives. Every donation brings hope, support, and a brighter future. 
+          <p className="whitespace-normal md:whitespace-nowrap overflow-visible text-base md:text-lg lg:text-xl text-gray-200 mb-6 max-w-lg whitespace-normal">
+            Your generosity can change lives. Every donation brings hope, support, and a brighter<br className="hidden md:block" />  future. 
             Give today and make a difference!
           </p>
-          <button className="px-6 py-3 md:px-8 md:py-4 bg-white text-brand border-2 rounded-lg text-base md:text-lg font-medium w-fit">
+          <button className="px-6 py-3 md:px-8 md:py-4 bg-white text-brand border-2 rounded-lg text-base md:text-lg font-medium w-fit hover:shadow-lg transition-shadow">
             Donate Now
           </button>
         </div>
@@ -26,7 +26,7 @@ const Impact = () => {
               <img 
                 src="/images/imp1.png" 
                 alt="Happy person" 
-                className="w-full h-auto rounded-t-lg shadow-lg md:shadow-xl translate-y-44"
+                className="w-full h-auto rounded-t-lg shadow-lg md:shadow-xl translate-y-[16rem]"
                 style={{ 
                   display: 'block',
                   verticalAlign: 'bottom',
@@ -36,7 +36,7 @@ const Impact = () => {
             </div>
 
             {/* Large Image */}
-            <div className="w-3/5 md:w-2/4">
+            <div className="w-3/8 md:w-3/6">
               <img 
                 src="/images/imp2.png" 
                 alt="Community helping" 
@@ -44,7 +44,7 @@ const Impact = () => {
                 style={{ 
                   display: 'block',
                   verticalAlign: 'bottom',
-                  maxHeight: '400px'
+                  maxHeight: '500px'
                 }}
               />
             </div>
