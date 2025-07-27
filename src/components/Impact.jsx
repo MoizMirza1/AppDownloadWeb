@@ -2,14 +2,14 @@ import React from 'react';
 
 const Impact = () => {
   return (
-    <section className="relative pt-20 px-4 sm:px-8 bg-brand" style={{ paddingBottom: '0' }}>
+    <section className="relative pt-20 pb-20 px-4 sm:px-8 bg-brand">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row">
         {/* Text Content */}
-        <div className="md:w-1/2 pr-8 mb-12 md:mb-0">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-10 leading-tight text-white">
-            Be the Reason <br className="hidden md:block" /> Someone Smiles Today!
+        <div className="md:w-1/2 pr-8 mb-12 md:mb-0 flex flex-col justify-start -mt-6">
+          <h1 className="whitespace-nowrap overflow-visible lg:text-7xl font-bold mb-12 leading-tight text-white">
+            Be the Reason<br className="hidden md:block" />Someone Smiles Today!
           </h1>
-          <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-lg">
+          <p className="text-lg md:text-xl text-gray-200 mb-6 max-w-lg">
             Your generosity can change lives. Every donation brings hope, support, and a brighter future. 
             Give today and make a difference!
           </p>
@@ -20,7 +20,7 @@ const Impact = () => {
 
         {/* Images Container */}
         <div className="md:w-1/2 relative">
-          <div className="absolute bottom-0 w-full flex gap-6 align-bottom">
+          <div className="absolute bottom-0 w-full flex gap-6 translate-y-20">
             {/* Small Image */}
             <div className="w-2/5 self-end">
               <img 
@@ -33,9 +33,9 @@ const Impact = () => {
                 }}
               />
             </div>
-            
+
             {/* Large Image */}
-            <div className="w-3/6 self-end">
+            <div className="w-2/5 self-end">
               <img 
                 src="/images/imp2.png" 
                 alt="Community helping" 
