@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'ITC Avant Garde Gothic Std';
+  src: url('/public/fonts/ITC\ Avant\ Garde\ Gothic\ Std\ Extra\ Light.woff2') format('woff2');
+  font-weight: 200;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ITC Avant Garde Gothic Std';
+  src: url('/public/fonts/ITC\ Avant\ Garde\ Gothic\ Std\ Book.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ITC Avant Garde Gothic Std';
+  src: url('/public/fonts/ITC\ Avant\ Garde\ Gothic\ Std\ Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ITC Avant Garde Gothic Std';
+  src: url('/public/fonts//ITC\ Avant\ Garde\ Gothic\ Std\ Demi.woff2') format('woff2');
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ITC Avant Garde Gothic Std';
+  src: url('/public/fonts/ITC\ Avant\ Garde\ Gothic\ Std\ Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
