@@ -8,8 +8,8 @@ const About = () => {
         
         {/* Left Column - Image */}
         <div className="w-full h-full flex justify-center items-center">
-          <img 
-            src="/images/MobSkew.png" 
+          <img
+            src="/images/MobSkew.png"
             alt="About Us"
             className="w-full h-full max-h-[600px] object-contain"
           />
@@ -79,7 +79,6 @@ const About = () => {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
