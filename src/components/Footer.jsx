@@ -51,7 +51,7 @@ const Footer = () => {
 
             {/* Right Phone (bottom-aligned with gap) */}
             <img 
-              src="/images/img1.png" 
+              src="/images/img2.png" 
               alt="App screen 2"
               className="absolute bottom-0 w-[48%] z-20 drop-shadow-xl"
               style={{ left: '52%' }}

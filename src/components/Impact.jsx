@@ -6,7 +6,7 @@ const Impact = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row">
         {/* Text Content */}
         <div className="md:w-1/2 pr-8 mb-12 md:mb-0 flex flex-col justify-start -mt-6">
-          <h1 className="whitespace-nowrap overflow-visible lg:text-7xl font-bold mb-12 leading-tight text-white">
+          <h1 className="whitespace-nowrap overflow-visible lg:text-6xl text-xl font-bold mb-12 leading-tight text-white">
             Be the Reason<br className="hidden md:block" />Someone Smiles Today!
           </h1>
           <p className="text-lg md:text-xl text-gray-200 mb-6 max-w-lg">
