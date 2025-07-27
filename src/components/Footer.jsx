@@ -2,16 +2,18 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-brand rounded-t-[3rem] text-white relative">
-      <div className="max-w-6xl mx-auto px-6 sm:px-12 pt-12"> {/* Added pt-12 for top padding */}
-        <div className="grid grid-cols-1 md:grid-cols-2 items-end"> {/* Removed gap-8 */}
+    <footer className="bg-brand rounded-t-[3rem] text-white relative overflow-hidden">
+      <div className="max-w-6xl mx-auto px-6 sm:px-12 pt-12 pb-0"> {/* Removed bottom padding */}
+        <div className="grid grid-cols-1 md:grid-cols-2 items-end">
           
-          {/* Left Section - Adjusted spacing */}
-          <div className="space-y-6 z-10 mb-0"> {/* Removed pb-4, added mb-0 */}
-            <h2 className="text-3xl md:text-4xl font-bold">Join the Fun – Download MyBindle Now!</h2>
-            <p className="text-lg text-indigo-100">
+          {/* Left Content - unchanged */}
+          <div className="space-y-6 z-10 mb-8 md:mb-0">
+            <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
+              Join the Fun – <br className="hidden sm:block" />Download MyBindle Now!
+            </h2>
+            <p className="text-base md:text-lg text-indigo-100 max-w-md">
               Your Social Network, Your Way<br />
-              Download MyBindle Now and Be a Part of a Community That's Always Evolving!
+              Download MyBindle Now and Be a Part<br /> of a Community That's Always Evolving!
             </p>
             <div className="flex flex-wrap gap-4">
               <button className="bg-white text-black rounded-full px-6 py-1 flex items-center gap-2">
@@ -40,21 +42,22 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Right Section - Tightly aligned */}
-          <div className="relative h-[320px] w-full">
-            {/* Left Phone (bottom-aligned) */}
+          {/* Right Images - Fixed bottom alignment */}
+          <div className="relative h-auto min-h-[200px] md:min-h-[300px] w-full">
+            {/* Left Phone */}
             <img 
               src="/images/body.png" 
               alt="App screen 1"
-              className="absolute left-0 bottom-0 w-[48%] z-10 drop-shadow-lg"
+              className="absolute left-0 bottom-0 w-[45%] z-10 drop-shadow-lg"
+              style={{ maxHeight: '80%' }}
             />
-
-            {/* Right Phone (bottom-aligned with gap) */}
+            
+            {/* Right Phone */}
             <img 
-              src="/images/img1.png" 
+              src="/images/img2.png" 
               alt="App screen 2"
-              className="absolute bottom-0 w-[48%] z-20 drop-shadow-xl"
-              style={{ left: '52%' }}
+              className="absolute right-0 bottom-0 w-[50%] z-20 drop-shadow-xl"
+              style={{ maxHeight: '100%' }}
             />
           </div>
         </div>
