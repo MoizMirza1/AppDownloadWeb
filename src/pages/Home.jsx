@@ -5,6 +5,7 @@ import Featured from '../components/Featured'
 import Installation from '../components/Installation'
 import Reviews from '../components/Reviews'
 import Footer from '../components/Footer'
+import About from '../components/About'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <Banner/>
         <div className='bg-background'>
             <Featured />
+            <About/>
             <Installation/>
             <Reviews/>
             <Footer/>
